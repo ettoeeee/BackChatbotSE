@@ -7,6 +7,7 @@ from flask import Flask, request, jsonify
 from wit import Wit
 from flask_cors import CORS  # Importa el módulo CORS
 import json  # Importa json para manejar el archivo de respuestas
+import random  # Importa random para elegir respuestas aleatorias
 
 # Inicializa la aplicación Flask
 app = Flask(__name__)
@@ -34,7 +35,6 @@ def load_answers():
     except json.JSONDecodeError:
         print("Error: El archivo answers.json tiene un formato incorrecto.")
         return {}
-
 
 answers = load_answers()
 
@@ -70,7 +70,10 @@ def chat():
     print("Intención detectada:", intent_name)
 
     # Obtener la respuesta desde el archivo JSON según la intención
-    bot_response = answers.get(intent_name, "Lo siento, no tengo una respuesta para eso.")
+    if intent_name in answers:
+        bot_response = random.choice(answers[intent_name])  # Selecciona una respuesta aleatoria
+    else:
+        bot_response = "Lo siento, no tengo una respuesta para eso. 🤖"
 
     # Actualizamos el contexto de la sesión (si Wit.ai devuelve un contexto nuevo, de lo contrario se mantiene el actual)
     sessions[user_id]["context"] = response.get("context", sessions[user_id]["context"])
@@ -80,7 +83,6 @@ def chat():
 
     # Imprimir bot_response antes de enviarlo al frontend
     print("Respuesta del bot:", bot_response)
-
 
     # Devolver la respuesta al frontend en formato JSON, junto con el session_id y el historial de la conversación
     return jsonify({"response": bot_response, "session_id": session_id, "history": sessions[user_id]["history"]})
