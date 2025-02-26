@@ -1,10 +1,12 @@
-#Importante: Ejecutar esta linea de codigo siempre en la terminal, ya que usamos entorno virtual y las 
-#dependencias se instalan temporalmente en el entorno virtual
-#pip install -r requirements.txt
-#Ejecutar el servidor: python app.py
+# Importante: Ejecutar esta linea de codigo siempre en la terminal, ya que usamos entorno virtual y las 
+# dependencias se instalan temporalmente en el entorno virtual
+# pip install -r requirements.txt
+# Ejecutar el servidor: python app.py
+
 from flask import Flask, request, jsonify
 from wit import Wit
 from flask_cors import CORS  # Importa el módulo CORS
+import json  # Importa json para manejar el archivo de respuestas
 
 # Inicializa la aplicación Flask
 app = Flask(__name__)
@@ -16,8 +18,25 @@ CORS(app)
 # Cada usuario tendrá un 'session_id', un contexto y un historial de conversación.
 sessions = {}
 
-# Configura el cliente de Wit.ai con tu token de acceso (lo obtienes desde el panel de Wit.ai)
+# Configura el cliente de Wit.ai con el token de acceso 
 wit_client = Wit("LI2J3TBOAOK3U6GICVIRRIUEMYUKSTZZ")
+
+# Cargar respuestas desde el archivo JSON
+def load_answers():
+    try:
+        with open("data/answers.json", "r", encoding="utf-8") as file:
+            answers = json.load(file)
+            print("Respuestas cargadas correctamente.")
+            return answers
+    except FileNotFoundError:
+        print("Error: El archivo answers.json no fue encontrado.")
+        return {}
+    except json.JSONDecodeError:
+        print("Error: El archivo answers.json tiene un formato incorrecto.")
+        return {}
+
+
+answers = load_answers()
 
 # Ruta principal para interactuar con el chatbot
 @app.route("/chat", methods=["POST"])
@@ -40,14 +59,28 @@ def chat():
     # Enviar el mensaje de usuario a Wit.ai para obtener la respuesta, pasando el session_id (y contexto si fuera necesario)
     response = wit_client.message(user_message, {"session_id": session_id})
     
-    # Obtener la respuesta generada por Wit.ai (si tienes configuradas respuestas dinámicas o acciones)
-    bot_response = response.get('text', 'Lo siento, no pude entenderte.')
+    # Imprimir la respuesta completa de Wit.ai
+    print("Respuesta de Wit.ai:", response)
+
+    # Obtener la intención detectada por Wit.ai
+    intents = response.get("intents", [])
+    intent_name = intents[0]["name"] if intents else None
+
+    # Imprimir la intención detectada
+    print("Intención detectada:", intent_name)
+
+    # Obtener la respuesta desde el archivo JSON según la intención
+    bot_response = answers.get(intent_name, "Lo siento, no tengo una respuesta para eso.")
 
     # Actualizamos el contexto de la sesión (si Wit.ai devuelve un contexto nuevo, de lo contrario se mantiene el actual)
     sessions[user_id]["context"] = response.get("context", sessions[user_id]["context"])
 
     # Guardamos el mensaje y la respuesta en el historial de conversación
     sessions[user_id]["history"].append({"user": user_message, "bot": bot_response})
+
+    # Imprimir bot_response antes de enviarlo al frontend
+    print("Respuesta del bot:", bot_response)
+
 
     # Devolver la respuesta al frontend en formato JSON, junto con el session_id y el historial de la conversación
     return jsonify({"response": bot_response, "session_id": session_id, "history": sessions[user_id]["history"]})
