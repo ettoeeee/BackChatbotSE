@@ -1,11 +1,297 @@
 {
-    "oferta_academica": [
-        "🎓 La UCR, Recinto de Paraíso, ofrece estas carreras:\n 📚 Dirección de Empresas \n  💻 Informática Empresarial \n  🇬🇧 Enseñanza del Inglés \n  🌿 Turismo Ecológico \n  🔢 Enseñanza Matemática",
-        "📖 ¡Claro! En el Recinto de Paraíso de la UCR puedes estudiar: \n - Administración de Empresas \n - Informática Empresarial \n - Enseñanza del Inglés \n - Turismo Ecológico \n - Enseñanza Matemática",
-        "🎓 En la UCR, Recinto de Paraíso, tienes estas opciones académicas:\n  🏢 Dirección de Empresas \n  💻 Informática Empresarial \n  🏞 Turismo Ecológico \n 🧮 Enseñanza Matemática \n 📚 Enseñanza del Inglés",
-        "📚 ¡Por supuesto! Aquí están las carreras disponibles en el Recinto de Paraíso de la UCR: \n - Administración de Empresas \n - Informática Empresarial \n - Turismo Ecológico \n - Enseñanza del Inglés \n - Enseñanza Matemática",
-        "🌍 ¿Buscas opciones académicas? En la UCR de Paraíso puedes estudiar: \n - Dirección de Empresas \n - Informática Empresarial \n - Enseñanza del Inglés \n - Turismo Ecológico \n - Enseñanza Matemática"
-    ]
-}
 
-  
+    "academic_offer": [
+        "🎓 La UCR, Recinto de Paraíso, ofrece estas carreras:\n 📚 Dirección de Empresas \n  💻 Informática Empresarial \n  🇬🇧 Enseñanza del Inglés \n  🌿 Turismo Ecológico \n  🔢 Enseñanza de la Matemática",
+        "📖 ¡Claro! En el Recinto de Paraíso de la UCR puedes estudiar: \n - Administración de Empresas \n - Informática Empresarial \n - Enseñanza del Inglés \n - Turismo Ecológico \n - Enseñanza de la Matemática",
+        "🎓 En la UCR, Recinto de Paraíso, tienes estas opciones académicas:\n  🏢 Dirección de Empresas \n  💻 Informática Empresarial \n  🏞 Turismo Ecológico \n 🧮 Enseñanza de la Matemática \n 📚 Enseñanza del Inglés",
+        "📚 ¡Por supuesto! Aquí están las carreras disponibles en el Recinto de Paraíso de la UCR: \n - Administración de Empresas \n - Informática Empresarial \n - Turismo Ecológico \n - Enseñanza del Inglés \n - Enseñanza de la Matemática",
+        "🌍 ¿Buscas opciones académicas? En la UCR de Paraíso puedes estudiar: \n - Dirección de Empresas \n - Informática Empresarial \n - Enseñanza del Inglés \n - Turismo Ecológico \n - Enseñanza de la Matemática"
+    ],
+
+    "general_information_computer_science": [
+        "🎓 El Bachillerato en Informática Empresarial de la UCR es una carrera única de las Sedes Regionales, iniciada en 1998. Combina tecnología 💻 y gestión empresarial 📊 para formar profesionales capacitados en el mundo moderno.",
+        "🖥️ Desde 1998, la UCR ofrece el Bachillerato en Informática Empresarial en sus Sedes Regionales. Es la opción perfecta para quienes desean desarrollar habilidades tecnológicas y empresariales en un solo lugar.",
+        "📚 El Bachillerato en Informática Empresarial es una carrera que une dos áreas clave: la informática 💻 y la administración empresarial 📊, y ha sido una oferta educativa en las sedes regionales de la UCR desde 1998.",
+        "🔧 El Bachillerato en Informática Empresarial es ideal para quienes quieren trabajar en la intersección de la tecnología 💻 y el mundo de los negocios 📈. Se ofrece en las Sedes Regionales de la UCR desde 1998.",
+        "🖥️ Este Bachillerato en Informática Empresarial, ofrecido en las Sedes Regionales de la UCR desde 1998, prepara a los estudiantes con una sólida base en tecnología informática 💻 y administración empresarial 📊."
+    ],
+
+    "computer_science_accreditation": [
+        "🏆 ¡Sí! El Bachillerato en Informática Empresarial está acreditado por el SINAES 📜, lo que garantiza su calidad académica y mejora continua 🚀.",
+        "✅ ¡Así es! La carrera cuenta con acreditación del SINAES 🏅, asegurando altos estándares de formación y excelencia 📚.",
+        "🎓 ¡Sí! La acreditación del SINAES 🏆 certifica que la carrera de Informática Empresarial cumple con rigurosos criterios de calidad y está en constante evolución 🔍.",
+        "📖 ¡Por supuesto! La carrera de Informática Empresarial está acreditada por SINAES 🏅, lo que garantiza un plan de estudios de alto nivel y compromiso con la excelencia 🚀.",
+        "🌟 Sí, la carrera esta acreditada, La acreditación SINAES 📜 respalda la calidad de la carrera de Informática Empresarial, asegurando formación de primer nivel y mejora continua 🎯."
+    ],
+
+    "what_is_sinaes": [
+        "📚 SINAES es el Sistema Nacional de Acreditación de la Educación Superior en Costa Rica. Su objetivo es garantizar la calidad de las carreras universitarias 🏆.",
+        "✅ El SINAES es la entidad que certifica la calidad de las carreras universitarias en Costa Rica 🇨🇷, asegurando altos estándares educativos 🎓.",
+        "🏅 SINAES es el organismo que verifica que las carreras cumplan con criterios de excelencia académica 📖 en Costa Rica.",
+        "🎯 El Sistema Nacional de Acreditación de la Educación Superior (SINAES) evalúa y certifica la calidad de las carreras universitarias en el país 📜.",
+        "🔍 SINAES supervisa la calidad educativa de las universidades en Costa Rica y otorga acreditaciones a las carreras que cumplen con sus estándares 📚."
+    ],
+
+    "deep_information_computer_science": [
+        "💻 En Informática Empresarial de la UCR, aprenderás a desarrollar aplicaciones que automatizan procesos y mejoran la eficiencia en las organizaciones. Además, te formarás con técnicas y metodologías modernas de la industria del software. 🚀",
+        "📊 Vaya, veo que te llama la atención la tecnología y la optimización de procesos, En Informática Empresarial te preparas para crear software que automatiza tareas y mejora la eficiencia de empresas, usando las últimas tendencias en desarrollo. 🖥️✨",
+        "⚙️ La carrera de Informática Empresarial forma profesionales capaces de desarrollar aplicaciones para gestionar información de manera eficiente. Además, integra prácticas y herramientas actuales del mundo del software. 💡💾",
+        "🎓 Con este Bachillerato en Informática Empresarial, aprenderás a diseñar y desarrollar sistemas que hacen más eficientes los procesos empresariales, aplicando metodologías y herramientas de la industria del software. 📈💻",
+        "🚀 ¡Lleva la tecnología al mundo empresarial! En esta carrera aprenderás a desarrollar software para mejorar la gestión de información y a aplicar metodologías modernas del sector tecnológico. 🔍📊"
+    ],
+
+    "information_studyPlan": [
+        "El plan de estudios del Bachillerato en Informática Empresarial de la UCR tiene una naturaleza multidisciplinaria, dividida en cuatro áreas: \n Computación e informática 💻\n Administración 📊\n Humanísticas 🧠\n Matemáticas 🔢",
+        "El plan está conformado por cuatro áreas clave: \n Computación e informática 💻 \n Administración 📊 \n Humanísticas 🧠\n Matemáticas 🔢. \n Cada una aporta una perspectiva única al desarrollo de los estudiantes.",
+        "La carrera tiene un enfoque multidisciplinario, cubriendo áreas de: \n Computación e informática 💻 \n Administración 📊\n Humanísticas 🧠 \n Matemáticas 🔢. \n Esto te prepara para abordar problemas de manera integral.",
+        "El Bachillerato en Informática Empresarial incluye formación en: \n Computación e informática 💻 \n Administración 📊 \n Humanísticas 🧠 \n Matemáticas 🔢. \n Lo que permite una visión más completa y preparada para el mundo laboral.",
+        "Este programa de estudios se enfoca en cuatro áreas esenciales: \n Computación e informática 💻 \n Administración 📊 \n Humanísticas 🧠 \n Matemáticas 🔢. \n Lo que proporciona una educación sólida y versátil."
+    ],
+    
+    "courses_computingAndInformatics": [
+        "Dentro del área de computación e informática, tendrás la oportunidad de aprender con cursos clave como:\n\n📌 Algoritmos 🤖\n📌 Bases de datos 🗄️\n📌 Sistemas operativos 🖥️\n📌 Programación 💻\n📌 Redes 🌐\n📌 Ingeniería de software 🏗️",   
+        "En el área de computación e informática, explorarás diversas tecnologías a través de cursos como:\n\n📌 Algoritmos 🤖\n📌 Bases de datos 🗄️\n📌 Sistemas operativos 🖥️\n📌 Programación 💻\n📌 Redes 🌐\n📌 Ingeniería de software 🏗️ \n ¡Un camino lleno de innovación y aprendizaje te espera en esta carrera! 🚀",
+        "La informática es una disciplina fascinante, y en esta área podrás aprender con cursos como:\n\n📌 Algoritmos 🤖\n📌 Bases de datos 🗄️\n📌 Sistemas operativos 🖥️\n📌 Programación 💻\n📌 Redes 🌐\n📌 Ingeniería de software 🏗️",
+        "Dentro del área de computación e informática, encontrarás cursos esenciales que te ayudarán a fortalecer tus habilidades digitales, como: \n\n 📌 Algoritmos 🤖\n📌 Bases de datos 🗄️\n📌 Sistemas operativos 🖥️ \n 📌 Programación 💻 \n 📌 Redes 🌐 \n 📌 Ingeniería de software 🏗️\n ¡Un plan de estudios diseñado para formar expertos en tecnología!",
+        "La computación e informática abarcan muchas áreas, y en esta carrera podrás aprender con cursos como:\n\n📌 Algoritmos 🤖\n📌 Bases de datos 🗄️\n📌 Sistemas operativos 🖥️\n📌 Programación 💻 \n 📌 Redes 🌐 \n 📌 Ingeniería de software 🏗️"
+    ],
+
+        
+    "administrationComputing_courses": [
+        "En el área de administración se llevan cursos asociados a la gestión de procesos del quehacer informático y de las organizaciones. Por ejemplo, se ofertan cursos como fundamentos de las organizaciones, informática aplicada a los negocios, economía de la computación, planificación informática, auditoría informática, gestión de proyectos, entre otros.",
+        "El área de administración en esta carrera abarca la gestión de procesos tanto en informática como en organizaciones. Algunos de los cursos que puedes llevar incluyen Fundamentos de las Organizaciones, Informática Aplicada a los Negocios, Economía de la Computación, Planificación Informática, Auditoría Informática y Gestión de Proyectos, entre otros.",
+        "En esta carrera, el área de administración cubre aspectos clave de la gestión informática y organizacional. Ofrecemos cursos como Fundamentos de las Organizaciones, Informática Aplicada a los Negocios, Economía de la Computación, Planificación Informática, Auditoría Informática y Gestión de Proyectos.",
+        "Si te interesa la administración en el ámbito informático, en esta carrera puedes llevar cursos sobre gestión de procesos, como Fundamentos de las Organizaciones, Informática Aplicada a los Negocios, Economía de la Computación, Planificación Informática, Auditoría Informática y Gestión de Proyectos.",
+        "El área de administración en la carrera está enfocada en la gestión informática y empresarial. Entre los cursos disponibles se encuentran Fundamentos de las Organizaciones, Informática Aplicada a los Negocios, Economía de la Computación, Planificación Informática, Auditoría Informática y Gestión de Proyectos.",
+        "Los cursos del área de administración combinan gestión informática y organizacional. Algunos de ellos son Fundamentos de las Organizaciones, Informática Aplicada a los Negocios, Economía de la Computación, Planificación Informática, Auditoría Informática y Gestión de Proyectos."
+    ],  
+
+        
+    "computing_jobMarket": [
+        "Las personas graduadas de Informática Empresarial pueden trabajar en diversos sectores como: \n ✅ Instituciones autónomas \n ✅ Gobierno central \n ✅ Industrias en general \n ✅ Empresas privadas \n ✅ Sector de educación superior estatal y privada \n ✅ Centros de investigación \n ✅ Empresas dedicadas a la consultoría y servicios profesionales \n Entre otros.",
+        "Los egresados de esta carrera tienen muchas opciones laborales: \n ✅ Instituciones autónomas \n ✅ Empresas privadas \n ✅ Gobierno central \n ✅ Centros de investigación \n ✅ Sector educativo, tanto estatal como privado.",
+        "Con este título, puedes trabajar en: \n ✅ Empresas privadas \n ✅ Gobierno central \n ✅ Instituciones autónomas \n ✅ Sectores de educación superior \n ✅ Consultoría y servicios profesionales.",
+        "Las oportunidades laborales son amplias: \n ✅ Industrias en general \n ✅ Empresas privadas \n ✅ Consultoría \n ✅ Educación superior estatal y privada \n ✅ Investigación, entre otras.",
+        "Los graduados de esta carrera pueden desempeñarse en: \n ✅ Instituciones públicas \n ✅ Empresas privadas \n ✅ Centros de investigación \n ✅ Educación superior \n ✅ Consultoría informática, entre otras áreas."
+    ],
+          
+    "english_information": [
+        "El Bachillerato en Enseñanza del Inglés forma profesionales en la enseñanza del idioma, con una sólida base en lingüística y literatura inglesa aplicada a la educación.",
+        "Esta carrera prepara especialistas en enseñanza del inglés, combinando el estudio de la lengua, la literatura y la pedagogía para formar docentes altamente capacitados.",
+        "Si te interesa la educación y el idioma inglés, este bachillerato te brinda las herramientas necesarias para enseñar con un enfoque en lingüística y literatura.",
+        "La carrera de Enseñanza del Inglés integra conocimientos de pedagogía, lingüística y literatura, formando docentes con habilidades para planear y ejecutar programas educativos.",
+        "Con este bachillerato, te convertirás en un especialista en la enseñanza del inglés, combinando teoría y práctica para desarrollar métodos efectivos en el aula."
+    ],
+
+    "teaching_skills_english": [
+        "Los docentes de inglés diseñan, implementan y evalúan sus programas de enseñanza para asegurar un aprendizaje efectivo. Además, se mantienen en constante actualización pedagógica y del idioma, fomentando valores en su entorno educativo.",
+        "La formación en enseñanza del inglés permite a los profesionales planificar sus clases, evaluar sus métodos y mejorar continuamente. También colaboran en su institución y trabajan junto a la comunidad educativa para fortalecer la enseñanza.",
+        "Más allá de dar clases, los docentes de inglés participan activamente en la mejora de los programas educativos, actualizan sus conocimientos y fomentan valores entre estudiantes, colegas y familias.",
+        "La enseñanza del inglés va más allá del aula: los docentes planifican, ejecutan y analizan sus clases, actualizan sus conocimientos y trabajan en equipo para fortalecer el aprendizaje y los valores en su comunidad.",
+        "👩‍🏫 Ser docente de inglés implica enseñar con estrategia, evaluar constantemente el proceso de aprendizaje y colaborar con la comunidad educativa. Además, se mantienen en formación continua para ofrecer educación de calidad."
+    ],
+    
+    "english_jobMarket": [
+        "En el mercado laboral, las personas graduadas de esta carrera se pueden vincular con: \n Instituciones de enseñanza media estatal y privada. ✅ \n Docencia universitaria estatal y privada. ✅ \n Academias comerciales. ✅ \n Escuelas bilingües. ✅ \n Escuelas primarias públicas y privadas. ✅",
+        "Los graduados de esta carrera tienen diversas oportunidades laborales, como: \n Instituciones de enseñanza media estatal y privada. ✅ \n Docencia universitaria estatal y privada. ✅ \n Academias comerciales. ✅\n Escuelas bilingües. ✅ \n Escuelas primarias públicas y privadas. ✅",
+        "Las personas graduadas en Enseñanza del Inglés pueden trabajar en los siguientes lugares: \n Instituciones de enseñanza media estatal y privada. ✅ \n Docencia universitaria estatal y privada. ✅ \n Academias comerciales. ✅ \n Escuelas bilingües. ✅ \n Escuelas primarias públicas y privadas. ✅",
+        "Al completar esta carrera, los graduados pueden vincularse con: \n Instituciones de enseñanza media estatal y privada. ✅\n Docencia universitaria estatal y privada. ✅ \n Academias comerciales. ✅ \n Escuelas bilingües. ✅ \n Escuelas primarias públicas y privadas. ✅",
+        "En cuanto al mercado laboral, los egresados de esta carrera tienen opciones como: \n Instituciones de enseñanza media estatal y privada. ✅\n Docencia universitaria estatal y privada. ✅ \n Academias comerciales. ✅ \n Escuelas bilingües. ✅ \n Escuelas primarias públicas y privadas. ✅"
+    ],
+
+    "mathematics_jobMarket": [
+        "Los egresados de la carrera de Enseñanza de la Matemática de la UCR pueden desempeñarse en diversos centros educativos. Por ejemplo:\n📍 Instituciones de Educación Secundaria, tanto públicas como privadas.\n📍 Escuelas de Educación Primaria, tanto públicas como privadas.\n📍 Instituciones del Sistema Parauniversitario.\n📍 Centros de Educación Superior, tanto públicos como privados.",   
+        "Los graduados en Enseñanza de la Matemática tienen muchas oportunidades laborales. Algunos de los lugares donde pueden trabajar son:\n📍 Escuelas de Educación Secundaria, tanto públicas como privadas.\n📍 Escuelas de Educación Primaria, tanto públicas como privadas.\n📍 Instituciones parauniversitarias.\n📍 Universidades y centros educativos superiores, tanto públicos como privados.",
+        "Si te gradúas en Enseñanza de la Matemática en la UCR, podrás acceder a varias áreas laborales, como:\n📍 Centros educativos de Secundaria, tanto públicos como privados.\n📍 Centros educativos de Primaria, tanto públicos como privados.\n📍 Instituciones del Sistema Parauniversitario.\n📍 Centros de Educación Superior, tanto públicos como privados.",
+        "Los profesionales en Enseñanza de la Matemática de la UCR pueden trabajar en diferentes sectores educativos, como:\n📍 Escuelas de Secundaria, tanto públicas como privadas.\n📍 Escuelas de Primaria, tanto públicas como privadas.\n📍 Instituciones parauniversitarias.\n📍 Universidades y centros de educación superior, tanto públicos como privados.",
+        "Como egresado de la carrera de Enseñanza de la Matemática, podrás desempeñarte en varios tipos de instituciones educativas, tales como:\n📍 Centros de Educación Secundaria, tanto públicos como privados.\n📍 Centros de Educación Primaria, tanto públicos como privados.\n📍 Instituciones del Sistema Parauniversitario.\n📍 Universidades y centros de educación superior, tanto públicos como privados."
+    ],
+
+    "mathematics_information_": [
+        "La carrera de Bachillerato y Licenciatura en Enseñanza de la Matemática de la UCR forma docentes con competencias en Matemática y Pedagogía, preparados para enseñar a nivel Primaria y Secundaria.",
+        "La carrera de Enseñanza de la Matemática de la UCR capacita a futuros docentes en Matemática y Pedagogía, orientados a ejercer la docencia en los niveles de Primaria y Secundaria.",
+        "La UCR ofrece una formación integral en la enseñanza de la Matemática, preparando a los estudiantes en áreas de Matemática y Pedagogía para trabajar en Primaria y Secundaria.",
+        "El Bachillerato y Licenciatura en Enseñanza de la Matemática de la UCR busca formar docentes capacitados en Matemática y Pedagogía para desempeñarse en la docencia en los niveles Primario y Secundario.",
+        "El plan de estudios de la carrera en Enseñanza de la Matemática de la UCR está diseñado para formar profesionales en Matemática y Pedagogía, con énfasis en la enseñanza en los niveles de Primaria y Secundaria."
+    ],
+
+    "moreMathematicsInformation": [
+        "Para obtener más detalles sobre la carrera, como los objetivos, la malla curricular y la ficha profesiográfica, puedes visitar el siguiente enlace: https://paraiso.ucr.ac.cr/index.php/enseñanzamatematicas",
+        "Si deseas profundizar en la información de la carrera, incluyendo la coordinación y la malla curricular, te recomiendo visitar este enlace: https://paraiso.ucr.ac.cr/index.php/enseñanzamatematicas",
+        "Para conocer todos los detalles de la carrera, como los objetivos, la ficha profesiográfica y más, puedes acceder al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/enseñanzamatematicas",
+        "Si te gustaría conocer más sobre la carrera y todo lo relacionado con ella, como los objetivos y la malla curricular, puedes hacer clic en este enlace: https://paraiso.ucr.ac.cr/index.php/enseñanzamatematicas",
+        "¿Quieres saber más sobre la carrera? Te invito a visitar este enlace donde encontrarás información detallada como los objetivos, la ficha profesiográfica y más: https://paraiso.ucr.ac.cr/index.php/enseñanzamatematicas"
+    ],
+
+    "tourism_information": [
+        "💡 Lo mejor para obtener más detalles sobre la carrera, malla curricular, la ficha profesiográfica y la coordinación, te sugiero que visites este enlace: https://paraiso.ucr.ac.cr/turismo",
+        "💡 Te recomiendo visitar el enlace para conocer la malla curricular, la ficha profesiográfica y la coordinación de la carrera de Turismo: https://paraiso.ucr.ac.cr/turismo",
+        "💡 Si quieres más información sobre la carrera, como la malla curricular, la ficha profesiográfica y la coordinación, puedes acceder al siguiente enlace: https://paraiso.ucr.ac.cr/turismo",
+        "💡 Para explorar todos los detalles sobre la carrera, malla curricular, la ficha profesiográfica y la coordinación, puedes visitar este link: https://paraiso.ucr.ac.cr/turismo",
+        "💡 Toda la información relevante sobre la carrera, malla curricular, la ficha profesiográfica y la coordinación la puedes encontrar en este enlace: https://paraiso.ucr.ac.cr/turismo"
+    ],
+
+    "businessAdministration_information": [
+        "💡 La carrera de Dirección de Empresas es una opción interesante. Para conocer a fondo aspectos como la coordinación, perfil profesional y malla curricular, visita el siguiente enlace: https://paraiso.ucr.ac.cr/index.php/direccion",
+        "💡 Si deseas saber más sobre la carrera de Dirección de Empresas, incluyendo detalles sobre coordinación, perfil profesional y malla curricular, puedes visitar este enlace: https://paraiso.ucr.ac.cr/index.php/direccion",
+        "💡 Para obtener información completa sobre la carrera de Dirección de Empresas, como la coordinación, el perfil profesional y la malla curricular, consulta el siguiente enlace: https://paraiso.ucr.ac.cr/index.php/direccion",
+        "💡 Conocer más sobre la carrera de Dirección de Empresas es fácil. Solo necesitas visitar este enlace para acceder a información detallada sobre la coordinación, perfil profesional y malla curricular: https://paraiso.ucr.ac.cr/index.php/direccion",
+        "💡 Si estás buscando información sobre la carrera de Dirección de Empresas, puedes consultar el siguiente enlace para conocer la coordinación, el perfil profesional y la malla curricular: https://paraiso.ucr.ac.cr/index.php/direccion"
+    ],
+
+    "teaching_staff": [
+        "Claro, para conocer el personal docente, solo debes ir a la sección 'Oferta Académica' -> 'Personal Docente'. Ahí podrás encontrar toda la información que buscas. Te dejo el enlace para que accedas rápidamente: https://paraiso.ucr.ac.cr/index.php/personal-docente.",
+        "👩‍🏫 Para saber más sobre los docentes, dirígete a 'Oferta Académica' y luego a 'Personal Docente'. Allí encontrarás la lista completa de los profesores. Aquí tienes el enlace para hacerlo fácilmente: https://paraiso.ucr.ac.cr/index.php/personal-docente.",
+        "🔍 Si necesitas saber quiénes conforman el personal docente, simplemente visita la sección 'Oferta Académica' y luego haz clic en 'Personal Docente'. Accede al siguiente enlace para más detalles: https://paraiso.ucr.ac.cr/index.php/personal-docente.",
+        "📖 Para conocer más sobre el personal docente, entra en la sección 'Oferta Académica' y selecciona 'Personal Docente'. De esta manera podrás ver toda la información relevante. Te dejo el link para acceder fácilmente: https://paraiso.ucr.ac.cr/index.php/personal-docente.",
+        "Si deseas más detalles sobre el personal docente, puedes dirigirte a la sección 'Oferta Académica' y hacer clic en 'Personal Docente'. Aquí te dejo el enlace directo para que lo consultes: https://paraiso.ucr.ac.cr/index.php/personal-docente."
+        ],
+    
+        
+    "project_definition": [
+        "Los proyectos en la UCR son iniciativas en las que se aplican conocimientos para beneficiar a la comunidad. En el recinto de Paraíso, existen cuatro tipos de proyectos: \n Acción Social ❤️\n Vida Estudiantil 🎓 \n Investigación 🔬 \n Docencia 📚. \n Si quieres saber más sobre un tipo de proyecto en particular, dime y con gusto te explico.",
+        "La UCR desarrolla proyectos para poner en práctica su conocimiento y servir a la sociedad. En el recinto de Paraíso, estos proyectos se dividen en cuatro categorías: \n Acción Social ❤️ \n Vida Estudiantil 🎓 \n Investigación 🔬 \n Docencia 📚. \n ¿Te interesa conocer más sobre alguno en específico? Avísame.",
+        "En la UCR, los proyectos permiten llevar el conocimiento a la comunidad. En el recinto de Paraíso, hay cuatro tipos principales: \n Acción Social ❤️ \n Vida Estudiantil 🎓 \n Investigación 🔬 \n Docencia 📚. \n Si te gustaría saber qué hace cada uno, dime cuál te interesa.",
+        "Los proyectos de la UCR son programas diseñados para aplicar conocimientos en beneficio de la comunidad. En el recinto de Paraíso, hay cuatro tipos: \n Acción Social ❤️ \n Vida Estudiantil 🎓 \n Investigación 🔬 \n Docencia 📚. \n Pregunta por cualquier proyecto en particular y te contaré más.",
+        "La Universidad de Costa Rica pone su conocimiento al servicio de la comunidad a través de diversos proyectos. En el recinto de Paraíso, estos proyectos se clasifican en cuatro tipos: \n Acción Social ❤️ \n Vida Estudiantil 🎓 \n Investigación 🔬 \n Docencia 📚. \n Si deseas más detalles sobre alguno en especial, dime y te lo explico."
+    ],
+    
+    "social_action_project": [
+        "Los proyectos de acción social buscan llevar la Universidad de Costa Rica a las comunidades, apoyando con capacitación e intercambio de conocimientos en procesos creativos y productivos. 🏙️ Estos proyectos también promueven la vinculación con la sociedad que respalda a la universidad. Existen 2 tipos de proyectos de acción social: \n Los de extensión cultural 📌\n y los de trabajo comunal 📌\n. Si te interesa conocer más sobre alguno de estos tipos de proyectos, no dudes en preguntarme 😊.",
+        "Los proyectos de acción social tienen como objetivo conectar la UCR con las comunidades, ofreciendo capacitación e intercambiando conocimientos en áreas creativas y productivas. Además, fomentan la relación con la sociedad que la universidad apoya. 🌆 Existen 2 tipos de proyectos de acción social: \n Los de extensión cultural 📌\n y los de trabajo comunal 📌\n. Si quieres saber más sobre alguno de estos proyectos, estoy aquí para ayudarte 😊.",
+        "A través de los proyectos de acción social, la UCR trabaja directamente con las comunidades, brindando apoyo en formación y promoviendo procesos creativos y productivos que fortalezcan los lazos con la sociedad. 🏙️ Existen 2 tipos de proyectos de acción social: \n Los de extensión cultural 📌\n y los de trabajo comunal 📌\n. Si te gustaría conocer más sobre algún tipo de proyecto, no dudes en preguntar 😊.",
+        "Los proyectos de acción social son fundamentales para que la UCR aporte sus conocimientos a la comunidad, colaborando en el desarrollo creativo y productivo. También ayudan a fortalecer los lazos con la sociedad que la universidad sirve. 🌇 Existen 2 tipos de proyectos de acción social: \n Los de extensión cultural 📌\n y los de trabajo comunal 📌\n. Si deseas saber más sobre alguno de estos proyectos, ¡estoy para ayudarte 😊!",
+        "La UCR, a través de los proyectos de acción social, llega a las comunidades con la misión de capacitar e intercambiar conocimientos en áreas creativas y productivas, promoviendo la vinculación con la sociedad que apoya a la universidad. 🏙️ Existen 2 tipos de proyectos de acción social: \n Los de extensión cultural 📌\n y los de trabajo comunal 📌\n. Si te interesa saber más sobre cualquiera de estos tipos de proyectos, ¡avísame y te cuento más 😊!"
+    ], 
+    
+    "cultural_extension_project": [
+    "En la UCR, la extensión cultural es un proceso de colaboración entre la universidad y los grupos sociales, donde se combinan aspectos espirituales, materiales, intelectuales y afectivos de todos los participantes.\nPuedes acceder a información específica sobre los proyectos vigentes y finalizados de este tipo accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/81 \n Si tienes alguna otra pregunta, no dudes en decírmelo, ¡estoy aquí para ayudarte! 😇",
+    "La extensión cultural en la UCR busca la colaboración entre la universidad y los grupos sociales, interactuando con elementos distintivos, espirituales, materiales, intelectuales y afectivos de las personas.\nPuedes acceder a información específica sobre los proyectos vigentes y finalizados de este tipo accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/81 \n Si necesitas más información, aquí estoy para ayudarte. 😇",
+    "El proyecto de extensión cultural en la UCR se centra en la colaboración conjunta, donde se interactúa con los aspectos espirituales, materiales, intelectuales y afectivos de los grupos sociales.\nPuedes acceder a información específica sobre los proyectos vigentes y finalizados de este tipo accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/81 \n Si tienes alguna otra consulta, no dudes en pedírmelo. ¡Estoy para ayudarte! 😇",
+    "En la Universidad de Costa Rica, la extensión cultural implica una colaboración que involucra intercambiar aspectos espirituales, materiales, intelectuales y afectivos entre la universidad y los grupos sociales.\nPuedes acceder a información específica sobre los proyectos vigentes y finalizados de este tipo accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/81 \n Si tienes más preguntas, no dudes en preguntarme, ¡estoy aquí para ti! 😇",
+    "La extensión cultural en la UCR es un proceso de colaboración en el que se comparten elementos espirituales, materiales, intelectuales y afectivos entre la universidad y los grupos sociales.\nPuedes acceder a información específica sobre los proyectos vigentes y finalizados de este tipo accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/81 \n Si necesitas saber algo más, no dudes en decirme. ¡Estoy aquí para ti! 😇"
+    ],
+
+    "community_service_project": [
+        "En la UCR, el Trabajo Comunal Universitario es una experiencia formativa en la que los estudiantes deben completar 300 horas de trabajo en comunidades. A través de este proceso, junto con académicos, realizan actividades interdisciplinarias que fortalecen la vinculación con diversos sectores de la sociedad. \n Puedes acceder a información específica sobre los proyectos de este tipo accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/84 \n Si necesitas más detalles, no dudes en preguntarme. ¡Estoy aquí para ayudarte! 😇",
+        "Como parte de su formación en la UCR, la población estudiantil debe cumplir con 300 horas de trabajo comunal, una modalidad de Acción Social donde estudiantes y docentes colaboran en proyectos interdisciplinarios con distintos sectores de la comunidad. \n Puedes acceder a información específica sobre los proyectos de este tipo accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/84 \n Si tienes más consultas, dime y con gusto te ayudaré. 😇",
+        "El Trabajo Comunal Universitario en la UCR es una iniciativa en la que estudiantes y académicos trabajan en conjunto con las comunidades a través de actividades interdisciplinarias. Cada estudiante debe completar 300 horas de trabajo comunal como parte de su formación integral. \n Puedes acceder a información específica sobre este proyecto accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/84 \n Si quieres más información, dime y con gusto te la brindaré. 😇",
+        "Como requisito para su formación, los estudiantes de la UCR realizan 300 horas de trabajo comunal, colaborando en proyectos con diversas comunidades. Esta es una de las modalidades de Acción Social que busca una vinculación dinámica y crítica con la sociedad. \n Puedes acceder a información específica sobre los proyectos vigentes y finalizados de este tipo accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/84 \n Si deseas conocer más al respecto, dime y con gusto te ayudo. 😇",
+        "El trabajo comunal en la UCR permite a los estudiantes y académicos desarrollar actividades interdisciplinarias con la comunidad. Es un requisito académico que fortalece la vinculación social y promueve el aprendizaje en entornos reales. Cada estudiante debe completar 300 horas dentro de este programa. \n Puedes acceder a información específica sobre los proyectos vigentes y finalizados de este tipo accediendo al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/84 \n Si quieres saber más sobre estos proyectos, dime y con gusto te lo explico. 😇"
+    ],
+
+    "research_project": [
+        "Los proyectos de investigación en la UCR buscan generar conocimiento sobre un tema o comunidad específica, permitiendo comprender el entorno y proponer soluciones o mejoras. Puedes conocer los proyectos vigentes y finalizados en el siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/77. 🤖 \n",
+        "En la UCR, la investigación es clave para el desarrollo del conocimiento. A través de estos proyectos, se estudian temas específicos con el propósito de comprender su entorno y generar soluciones. Puedes consultar los proyectos activos y finalizados aquí: https://paraiso.ucr.ac.cr/index.php/node/77. 🤖 \n",
+        "Los proyectos de investigación buscan explorar y analizar un tema o comunidad para comprender su entorno y generar cambios positivos. Para ver los proyectos vigentes y finalizados, accede al siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/77. \n",
+        "En la UCR, la investigación permite conocer y analizar diferentes problemáticas para proponer soluciones. Estos proyectos generan información valiosa sobre diversos temas. Puedes acceder a los proyectos actuales y finalizados en este enlace: https://paraiso.ucr.ac.cr/index.php/node/77. 🤖 \n",
+        "Los proyectos de investigación tienen como objetivo profundizar en un tema de interés para generar conocimiento y posibles soluciones. Si quieres conocer los proyectos que están en marcha o los ya finalizados, visita este enlace: https://paraiso.ucr.ac.cr/index.php/node/77. \n"
+    ],
+
+    "teaching_project": [
+        "En la UCR, los Proyectos de Docencia buscan mejorar la enseñanza y el aprendizaje, brindando a los docentes herramientas para innovar en sus métodos y fortalecer sus habilidades pedagógicas. Su propósito es elevar la calidad educativa y beneficiar a toda la comunidad universitaria. Si quieres conocer más sobre estos proyectos, puedes visitar el siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/76 \n",    
+        "Los Proyectos de Docencia en la UCR permiten a los profesores reflexionar sobre su práctica y explorar nuevas estrategias pedagógicas, todo con el objetivo de mejorar la enseñanza y el aprendizaje. Descubre más sobre estos proyectos en este enlace: https://paraiso.ucr.ac.cr/index.php/node/76 \n",        
+        "Para fortalecer la educación universitaria, la UCR impulsa Proyectos de Docencia que ayudan a los docentes a innovar en sus métodos de enseñanza y a mejorar la experiencia de aprendizaje. 📚 Si te interesa conocer más sobre estos proyectos, aquí tienes más información: https://paraiso.ucr.ac.cr/index.php/node/76 \n",
+        "Los Proyectos de Docencia están diseñados para que el profesorado de la UCR explore nuevas formas de enseñanza y refuerce su labor educativa. Con ello, se busca elevar la calidad académica y mejorar la experiencia del estudiantado. 🏫 Conoce más detalles aquí: https://paraiso.ucr.ac.cr/index.php/node/76 \n",
+        "En la Universidad de Costa Rica, los Proyectos de Docencia permiten a los profesores mejorar sus prácticas pedagógicas y enriquecer la educación universitaria. Son una oportunidad para fortalecer la enseñanza y beneficiar tanto a docentes como a estudiantes. Si quieres explorar más sobre estos proyectos, accede a este enlace: https://paraiso.ucr.ac.cr/index.php/node/76 \n"
+    ],
+
+    "student_life_project": [
+        "Los Proyectos de Vida Estudiantil en el Recinto de Paraíso ofrecen actividades como talleres, ferias y encuentros para enriquecer la experiencia universitaria. Estas iniciativas, financiadas por la Vicerrectoría de Vida Estudiantil, están diseñadas para apoyar el bienestar y desarrollo del estudiantado. ✅ Si deseas saber cuáles están activos, visita este enlace: https://paraiso.ucr.ac.cr/index.php/node/73 \n",
+        "En la UCR, los Proyectos de Vida Estudiantil fomentan el crecimiento personal y académico a través de actividades como charlas, talleres y encuentros organizados especialmente para el estudiantado del Recinto de Paraíso. ✅ Si deseas conocer los proyectos vigentes, puedes consultarlos aquí: https://paraiso.ucr.ac.cr/index.php/node/73 \n",
+        "Para fortalecer la experiencia universitaria, la UCR impulsa Proyectos de Vida Estudiantil con actividades enriquecedoras como ferias, talleres y encuentros, todos organizados y financiados por la Vicerrectoría de Vida Estudiantil. ✅ Si quieres explorar los proyectos activos, visita este enlace: https://paraiso.ucr.ac.cr/index.php/node/73 \n",
+        "Los Proyectos de Vida Estudiantil en el Recinto de Paraíso permiten a la comunidad estudiantil participar en actividades de aprendizaje y convivencia, organizadas con el respaldo de la Vicerrectoría de Vida Estudiantil. ✅ Para conocer los proyectos actuales, revisa el siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/73 \n",
+        "Desde talleres hasta encuentros y ferias, los Proyectos de Vida Estudiantil ofrecen espacios de aprendizaje y desarrollo para la comunidad estudiantil del Recinto de Paraíso, con financiamiento y respaldo institucional. ✅ Si quieres ver cuáles están activos, aquí tienes más información: https://paraiso.ucr.ac.cr/index.php/node/73 \n"
+    ],
+
+    "administration_staff": [
+        "La administración del Recinto de Paraíso se encarga de coordinar todos los procesos administrativos, garantizando servicios generales e informáticos eficientes y optimizando los recursos institucionales. ✅ Si quieres saber más sobre los miembros que la conforman y su contacto, visita este enlace: https://paraiso.ucr.ac.cr/index.php/node/262 \n",
+        "En el Recinto de Paraíso, la administración es responsable de la ejecución correcta del presupuesto y de la gestión de los servicios generales e informáticos, buscando siempre la eficiencia. ✅ Si deseas conocer a los miembros de la administración y cómo contactarlos, visita: https://paraiso.ucr.ac.cr/index.php/node/262 \n",
+        "La administración del Recinto de Paraíso tiene como misión coordinar procesos administrativos y garantizar la eficiencia de los servicios que se ofrecen a la comunidad universitaria. ✅ Si te interesa conocer los miembros de la administración y sus datos de contacto, puedes consultarlo en este enlace: https://paraiso.ucr.ac.cr/index.php/node/262 \n",
+        "En el Recinto de Paraíso, la administración coordina todos los aspectos administrativos y busca siempre la optimización de los recursos institucionales, asegurando la eficiencia de los servicios. ✅ Para conocer los miembros de la administración y cómo contactarlos, visita el siguiente enlace: https://paraiso.ucr.ac.cr/index.php/node/262 \n",
+        "La administración del Recinto de Paraíso se encarga de garantizar una correcta ejecución presupuestaria y la prestación de servicios generales e informáticos, contribuyendo al funcionamiento óptimo de la comunidad universitaria. ✅ Si deseas más información sobre los miembros y su contacto, revisa este enlace: https://paraiso.ucr.ac.cr/index.php/node/262 \n"
+    ],
+
+    "contact_address": [
+        "La dirección del Recinto de Paraíso es: Paraíso de Cartago, un kilómetro y medio sobre la carretera a Orosi, del parque de Paraíso. 😊 \n",
+        "Para llegar al Recinto de Paraíso, debes ir hacia Paraíso de Cartago, a un kilómetro y medio sobre la carretera a Orosi, del parque de Paraíso. 😄 \n",
+        "El Recinto de Paraíso se encuentra en Paraíso de Cartago, a un kilómetro y medio de la carretera a Orosi, del parque de Paraíso.📍 \n",
+        "La dirección del Recinto de Paraíso es: Paraíso de Cartago, a un kilómetro y medio sobre la carretera a Orosi, del parque de Paraíso. 😊 \n",
+        "Recuerda que el Recinto de Paraíso está ubicado en Paraíso de Cartago, un kilómetro y medio sobre la carretera a Orosi, del parque de Paraíso. 😎 \n"
+  ],
+
+    "contact_hours": [
+        "El horario de atención es de lunes a viernes, de 8:00 a.m. a 12:00 m.d. y de 1:00 p.m. a 5:00 p.m.  ⏰",
+        "De lunes a viernes en el siguiente horario: de 8:00 a.m. a 12:00 m.d. y de 1:00 p.m. a 5:00 p.m.  📅",
+        "El horario de atención es de lunes a viernes, de 8:00 a.m. a 12:00 m.d. y de 1:00 p.m. a 5:00 p.m.  ⏰",
+        "El horario es de lunes a viernes, de 8:00 a.m. a 12:00 m.d. y de 1:00 p.m. a 5:00 p.m.  ⏰",
+        "El horario de atención es de lunes a viernes, en el horario de 8:00 a.m. a 12:00 m.d. y de 1:00 p.m. a 5:00 p.m. 🕓"
+  ],
+
+    "contact_phoneNumber": [
+        "Puedes comunicarte a los números: (506) 2511 7550 para Administración y (506) 2511 2177 para Recepción. 📞",
+        "Los números de contacto son: (506) 2511 7550 para Administración y (506) 2511 2177 para Recepción.  ☎️",
+        "Si necesitas contactar un número de teléfono, puedes llamar al (506) 2511 7550 (Administración) o al (506) 2511 2177 (Recepción).  📱",
+        "Los números para comunicarte son (506) 2511 7550 (Administración) y (506) 2511 2177 (Recepción).  📲",
+        "Para consultas, puedes llamar al (506) 2511 7550 para Administración o al (506) 2511 2177 para Recepción.  📞"
+  ],
+
+    "contact_email": [
+        "Puedes enviar un correo a secretaria.rp@ucr.ac.cr para cualquier consulta. ",
+        "Si prefieres escribir, puedes hacerlo a secretaria.rp@ucr.ac.cr.",
+        "Para cualquier consulta por correo, envíala a secretaria.rp@ucr.ac.cr.",
+        "Si necesitas enviar un correo, puedes hacerlo a secretaria.rp@ucr.ac.cr.",
+        "El correo de contacto es secretaria.rp@ucr.ac.cr. "
+  ],
+
+    "contact_facebook": [
+        "Por supuesto, puedes ver la cuenta de Facebook: https://www.facebook.com/ParaisoUCR. 👍",
+        "¡Claro!, puedes visitar la página de Facebook. Puedes encontrarla en este enlace: https://www.facebook.com/ParaisoUCR. 📱",
+        "¡Claro! Aquí te dejo el enlace a la cuenta de Facebook: https://www.facebook.com/ParaisoUCR.  💬",
+        "Por supuesto, el link del perfil en Facebook aquí: https://www.facebook.com/ParaisoUCR. 📲",
+        "¡Por supuesto! Visíta Facebook en https://www.facebook.com/ParaisoUCR. 📸"
+  ],
+
+    "contact_youtube": [
+        "¡Sí! Puedes ver el canal de YouTube en este enlace: https://www.youtube.com/channel/UCFXimNncQFufJLctECRgOlw. 🎥",
+        "Claro, acá está el canal de YouTube. Encuéntralo aquí: https://www.youtube.com/channel/UCFXimNncQFufJLctECRgOlw. 📹",
+        "Puedes ver el perfil en YouTube a través de este enlace: https://www.youtube.com/channel/UCFXimNncQFufJLctECRgOlw. 📺",
+        "Sí, el recinto tiene un canal en YouTube. Aquí te dejo el enlace: https://www.youtube.com/channel/UCFXimNncQFufJLctECRgOlw. 🎬",
+        "Claro, visita el canal de YouTube en https://www.youtube.com/channel/UCFXimNncQFufJLctECRgOlw para más videos. 🎥"
+  ],
+
+    "contact_instagram": [
+        "¡Claro! mira la cuenta de Instagram en este enlace: https://www.instagram.com/ucrrecintodeparaiso/?hl=en. 📸",
+        "Sí, el recinto tiene cuenta de Instagram. Encuéntralo en https://www.instagram.com/ucrrecintodeparaiso/?hl=en. 📷",
+        "Sí, tienen un perfil de Instagram. Puedes seguirlo en https://www.instagram.com/ucrrecintodeparaiso/?hl=en. 🖼️",
+        "¡Por supuesto! visita Instagram en este enlace: https://www.instagram.com/ucrrecintodeparaiso/?hl=en. 📲",
+        "Sí, el perfil de Instagram es https://www.instagram.com/ucrrecintodeparaiso/?hl=en. 📸"
+  ],
+    "goodbye": [
+        "¡Hasta luego! Estaré aquí si necesitas algo. 😊",
+        "¡Nos vemos! Siempre estaré por aquí cuando me necesites. 👋",
+        "¡Chao! No dudes en regresar si tienes alguna duda. 😎",
+        "¡Hasta la próxima! Aquí estaré para ayudarte cuando lo necesites. 😊",
+        "¡Cuídate! Nos hablamos pronto si necesitas algo. 👋",
+        "¡Adiós! No dudes en volver si tienes más preguntas. 🌟",
+        "¡Hasta luego! Aquí estaré esperándote si vuelves. 😊",
+        "¡Nos vemos! Siempre estaré listo para ayudarte. ✨",
+        "¡Chao, chao! Si vuelves, estaré aquí para ti. 😄",
+        "¡Cuídate mucho! Nos vemos la próxima vez que necesites ayuda. 💫"
+    ],
+
+    
+    "greetings": [
+            "¡Hola! ¿En qué puedo ayudarte hoy? 😊",
+            "¡Hey! ¿Cómo estás? Aquí estoy para lo que necesites. 👋",
+            "¡Hola, hola! ¿Qué tal? Estoy aquí para ayudarte. 😄",
+            "¡Qué tal! ¿Cómo puedo ayudarte hoy? ✨",
+            "¡Hola! ¿Qué puedo hacer por ti? 😎",
+            "¡Hey, hola! ¿Todo bien? Cuéntame, ¿en qué puedo ayudarte? 😄",
+            "¡Hola! ¿Cómo estás? Aquí estoy listo para ayudarte. 🌟",
+            "¡Hola! ¿Qué onda? ¿En qué te puedo echar una mano hoy? 😄",
+            "¡Hola, qué tal! ¿Cómo puedo ayudarte hoy? 😊",
+            "¡Ey, qué onda! Aquí estoy para lo que necesites. 👋"
+    ]
+    
+}

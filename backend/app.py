@@ -1,4 +1,4 @@
-# Importante: Ejecutar esta linea de codigo siempre en la terminal, ya que usamos entorno virtual y las 
+# Importante: Ejecutar esta línea de código siempre en la terminal, ya que usamos entorno virtual y las 
 # dependencias se instalan temporalmente en el entorno virtual
 # pip install -r requirements.txt
 # Ejecutar el servidor: python app.py
@@ -6,8 +6,8 @@
 from flask import Flask, request, jsonify
 from wit import Wit
 from flask_cors import CORS  # Importa el módulo CORS
-import json  # Importa json para manejar el archivo de respuestas
-import random  # Importa random para elegir respuestas aleatorias
+import json
+import random 
 
 # Inicializa la aplicación Flask
 app = Flask(__name__)
@@ -37,6 +37,33 @@ def load_answers():
         return {}
 
 answers = load_answers()
+
+# Respuestas para cuando no se detecta ninguna intención (wrong intents)
+wrong_intents_responses = [
+    "😕 Lo siento, no entendí eso. ¿Te gustaría saber más sobre alguna de estas opciones? \n 1. Información sobre carreras \n 2. Proyectos del recinto \n 3. Trabajo comunal",
+    "🤔 No tengo suficiente información para ayudarte, pero si te interesa, ¿Te gustaría saber más sobre alguna carrera o contacto para consultas?",
+    "🙁 No estoy seguro de qué quieres decir. ¿Quizás te interese saber más sobre las oportunidades académicas en la UCR? Aquí tienes algunas opciones: \n 1. Carreras disponibles \n 2. Docencia \n 3. Contactos de la UCR",
+    "🤷 Parece que no entendí bien, intenta preguntarlo de otra forma. O tal vez te interese una de estas opciones: \n 1. Detalles sobre la carrera en Informática Empresarial \n 2. Detalles sobre Turismo \n 3. Información del Trabajo Comunal Universitario (TCU)",
+    "🔎 No tengo una respuesta para eso, pero estaré encantado de ayudarte en otra cosa. ¿Te gustaría saber más sobre: \n 1. Mercado laboral de alguna carrera \n 2. Proyectos de accion social \n 3. Redes sociales del recinto",
+    "🧐 Perdón, no logré comprenderlo. ¿Podrías intentarlo nuevamente con otras palabras? O si lo prefieres, ¿puedo ayudarte con la oferta académica o proporcionarte información sobre la administración del recinto?",
+    "🤖 Hmm, no estoy seguro de qué responder. ¿Podrías darme más detalles o elegir alguna de estas opciones? \n 1. Información sobre el Bachillerato en Informática Empresarial \n 2. Carreras ofertadas \n 3. Información sobre el personal docente"
+]
+
+# Array con 6 variaciones de mensaje para invitar al usuario a preguntar más
+additional_questions_responses = [
+    "\n Si tienes más dudas, pregúntame. 🤖",
+    "\n Si te queda alguna pregunta, no dudes en consultarme. 💡",
+    "\n ¿Tienes alguna otra duda? Estoy aquí para ayudarte. 😊",
+    "\n Cualquier otra consulta, solo pregúntame.",
+    "\n Si necesitas más información, aquí estoy para ayudarte. 📚",
+    "\n No dudes en preguntarme si te surge otra duda.",
+    "\n Estoy aquí para responder cualquier otra pregunta que tengas. ✨",
+    "\n No dudes en consultarme lo que necesites. 🧐",
+    "\n Si tienes más preguntas, dime con confianza.",
+    "\n Estoy a tu disposición si necesitas más información. 📖",
+    "\n Preguntar es aprender, así que dime si necesitas más ayuda. 🚀"
+]
+
 
 # Ruta principal para interactuar con el chatbot
 @app.route("/chat", methods=["POST"])
@@ -73,7 +100,12 @@ def chat():
     if intent_name in answers:
         bot_response = random.choice(answers[intent_name])  # Selecciona una respuesta aleatoria
     else:
-        bot_response = "Lo siento, no tengo una respuesta para eso. 🤖"
+        # Si no se detecta una intención válida, usa una respuesta aleatoria de wrong_intents_responses
+        bot_response = random.choice(wrong_intents_responses)
+
+    # se concatena un mensaje adicional invitando al usuario a preguntar más.
+    if intent_name and intent_name not in ["goodbye", "cultural_extension_project", "social_action_project", "project_definition", "community_service_project", "greetings"]:
+        bot_response += " " + random.choice(additional_questions_responses)
 
     # Actualizamos el contexto de la sesión (si Wit.ai devuelve un contexto nuevo, de lo contrario se mantiene el actual)
     sessions[user_id]["context"] = response.get("context", sessions[user_id]["context"])
